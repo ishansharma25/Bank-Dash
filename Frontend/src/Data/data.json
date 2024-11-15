@@ -1,0 +1,131 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "username": "Admin",
+      "email": "Admin@example.com",
+      "password":"GDT",
+      "contact": "9816584266",
+      "profile": {
+        "cards": [
+          {
+            "id": "card_1",
+            "type": "visa",
+            "balance": 5756,
+            "cardNumber": "3778 **** **** 1234",
+            "cardHolder": "John Doe",
+            "validThru": "12/22",
+            "isDefault": true,
+            "currency": "USD",
+            "recentTransactions": [
+              {
+                "id": 1,
+                "type": "deposit",
+                "description": "Deposit from Bank",
+                "date": "28 January 2023",
+                "amount": -850,
+                "currency": "USD"
+              },
+              {
+                "id": 2,
+                "type": "deposit",
+                "description": "Deposit Paypal",
+                "date": "25 January 2023",
+                "amount": 2500,
+                "currency": "USD"
+              }
+            ]
+          },
+          {
+            "id": "card_2",
+            "type": "mastercard",
+            "balance": 3200,
+            "cardNumber": "5412 **** **** 8888",
+            "cardHolder": "John Doe",
+            "validThru": "03/25",
+            "isDefault": false,
+            "currency": "EUR",
+            "recentTransactions": [
+              {
+                "id": 1,
+                "type": "payment",
+                "description": "Online Purchase",
+                "date": "27 January 2023",
+                "amount": -150,
+                "currency": "EUR"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": 2,
+      "username": "jane_smith",
+      "email": "jane@example.com",
+      "password":"password456",
+      "contact": "9123456789",
+      "profile": {
+        "cards": [
+          {
+            "id": "card_3",
+            "type": "visa",
+            "balance": 8922,
+            "cardNumber": "4556 **** **** 5678",
+            "cardHolder": "Jane Smith",
+            "validThru": "11/24",
+            "isDefault": true,
+            "currency": "USD",
+            "recentTransactions": [
+              {
+                "id": 1,
+                "type": "payment",
+                "description": "Client Payment",
+                "date": "27 January 2023",
+                "amount": 3500,
+                "currency": "USD"
+              },
+              {
+                "id": 2,
+                "type": "withdraw",
+                "description": "ATM Withdrawal",
+                "date": "24 January 2023",
+                "amount": -1000,
+                "currency": "USD"
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ],
+  "weeklyActivityData": [
+    { "day": "Sat", "deposit": 450, "withdraw": 200 },
+    { "day": "Sun", "deposit": 320, "withdraw": 150 },
+    { "day": "Mon", "deposit": 280, "withdraw": 300 },
+    { "day": "Tue", "deposit": 400, "withdraw": 350 },
+    { "day": "Wed", "deposit": 150, "withdraw": 200 },
+    { "day": "Thu", "deposit": 350, "withdraw": 250 },
+    { "day": "Fri", "deposit": 380, "withdraw": 320 }
+  ],
+  "expenseData": [
+    { "name": "Entertainment", "value": 30, "color": "#2C3968" },
+    { "name": "Bill Expenses", "value": 15, "color": "#FF8042" },
+    { "name": "Investment", "value": 35, "color": "#E441FF" },
+    { "name": "Others", "value": 20, "color": "#4169E1" }
+  ],
+  "quickTransferContacts": [
+    { "name": "Livia Bator", "role": "CEO", "img": "julia.png" },
+    { "name": "Randy Press", "role": "Director", "img": "Randy.png" },
+    { "name": "Workman", "role": "Designer", "img": "emanuel1.png" }
+  ],
+  "balanceHistoryData": [
+    { "month": "Jul", "balance": 350 },
+    { "month": "Aug", "balance": 420 },
+    { "month": "Sep", "balance": 380 },
+    { "month": "Oct", "balance": 450 },
+    { "month": "Nov", "balance": 400 },
+    { "month": "Dec", "balance": 480 },
+    { "month": "Jan", "balance": 520 }
+  ]
+}
