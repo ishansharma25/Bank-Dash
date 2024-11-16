@@ -4,7 +4,7 @@ import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { useNavigate } from 'react-router-dom';
 import usersData from '@/Data/datasignup.json';
-
+import Header from '@/Component/Header'
 const Signup = () => {
   const navigate = useNavigate();
   const [formData, setFormData] = useState({
@@ -125,7 +125,11 @@ const Signup = () => {
   };
 
   return (
+    <>
+    <Header></Header>
+  
     <div className="min-h-screen flex items-center justify-center bg-white p-6">
+      
       <div className="w-full max-w-5xl grid grid-cols-1 md:grid-cols-2 gap-10">
         {/* Left Section with Image and Text */}
         <div className="relative flex flex-col items-start">
@@ -285,6 +289,7 @@ const Signup = () => {
         </Card>
       </div>
     </div>
+    </>
   );
 };
 
